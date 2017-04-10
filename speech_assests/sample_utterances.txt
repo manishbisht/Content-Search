@@ -1,4 +1,6 @@
 SearchIntent Tell me something about {Query}
+SearchIntent Who is {Query}
+SearchIntent What is {Query}
 
 AMAZON.HelpIntent help
 AMAZON.HelpIntent help me

@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5d544896-b0e9-4a7c-88a5-a23e2da72523" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/speech_assests/slot_values.txt" afterPath="$PROJECT_DIR$/speech_assests/slot_values.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/wiki.py" afterPath="$PROJECT_DIR$/src/wiki.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/speech_assests/sample_utterances.txt" afterPath="$PROJECT_DIR$/speech_assests/sample_utterances.txt" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -18,7 +17,7 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="main.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="main.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="340">
@@ -30,11 +29,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="sample_utterances.txt" pinned="false" current-in-tab="false">
+      <file leaf-file-name="sample_utterances.txt" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/speech_assests/sample_utterances.txt">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="75">
-              <caret line="5" column="31" lean-forward="true" selection-start-line="5" selection-start-column="31" selection-end-line="5" selection-end-column="31" />
+              <caret line="5" column="21" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="11" selection-end-column="22" />
               <folding />
             </state>
           </provider>
@@ -69,9 +68,9 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/speech_assests/intent_schema.json" />
-        <option value="$PROJECT_DIR$/speech_assests/sample_utterances.txt" />
         <option value="$PROJECT_DIR$/speech_assests/slot_values.txt" />
         <option value="$PROJECT_DIR$/src/main.py" />
+        <option value="$PROJECT_DIR$/speech_assests/sample_utterances.txt" />
       </list>
     </option>
   </component>
@@ -200,14 +199,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/speech_assests/sample_utterances.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="31" lean-forward="true" selection-start-line="5" selection-start-column="31" selection-end-line="5" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/speech_assests/intent_schema.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
@@ -231,6 +222,14 @@
           <folding>
             <element signature="e#329#366#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/speech_assests/sample_utterances.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="21" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="11" selection-end-column="22" />
+          <folding />
         </state>
       </provider>
     </entry>
