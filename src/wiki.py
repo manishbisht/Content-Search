@@ -1,6 +1,7 @@
 import urllib, json, re
 query = 'water'
-url = "https://en.wikipedia.org/w/api.php?action=query&origin=*&prop=extracts&converttitles=zh&format=json&exintro=&titles=" + query
+query= query.replace(' ', '+')
+url = "https://en.wikipedia.org/w/api.php?action=query&origin=*&prop=extracts&converttitles=zh&format=json&exintro=&titles=" + query.title()
 response = urllib.urlopen(url)
 data = json.loads(response.read())
 data = data['query']['pages']
