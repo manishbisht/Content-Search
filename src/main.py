@@ -116,6 +116,7 @@ def ContentSearch(intent, session, query):
         """
         card_title = query
         query = query.replace(' ', '+')
+        query = re.sub(r'[^\x00-\x7F]+',' ', query)
         session_attributes = {}
         should_end_session = True
         reprompt_text = ""
