@@ -1,5 +1,4 @@
 SAMPLES
 water
-air
 mark zuckerberg
 google
