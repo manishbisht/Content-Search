@@ -129,6 +129,8 @@ def ContentSearch(intent, session, query):
             speech_output = re.sub('<[^<]+?>', '', data[page]['extract'].split('\n')[0])
             speech_output = re.sub("[\(\[].*?[\)\]]", "", speech_output)
             speech_output = speech_output.replace('(', '').replace(') ', '')
+            if speech_output == '':
+                speech_output = "No Content Found from your query."
         return build_response(session_attributes, build_speechlet_response(
             card_title, speech_output, reprompt_text, should_end_session))
 # --------------- Events ------------------
