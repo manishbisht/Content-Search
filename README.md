@@ -35,6 +35,9 @@ Below is the link to get the details about enabling the skill on your device.
 ## What's next for Content Search
 I will try to improve it in my free time.
 
+## Live Demo
+https://www.youtube.com/watch?v=CxlHfsF5xJo
+
 ## Try It Out
 https://www.amazon.com/Manish-Bisht-Content-Search/dp/B06Y5GVF54/
 
